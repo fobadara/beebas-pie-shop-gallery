@@ -1,0 +1,8 @@
+#.gitignore
+#files here are ignored
+
+.node_modules/
+
+test.md
+
+.vs

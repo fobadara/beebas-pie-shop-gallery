@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+
+header {
+  background-color: $primaryColor;
+  font-family: "cookie", cursive;
+}
+
+header img {
+  float: left;
+}
+
+header h1,
+header h2 {
+  margin: 0;
+  color: #fff;
+  font-weight: 300;
+  font-style: italic;
+}
+
+header h1 {
+  padding: 0.5rem 0 0 0;
+  font-size: 1.95rem;
+}
+
+header h2 {
+  padding: 0 0 0 0;
+  font-size: 1.05rem;
+}
+
+.logo {
+  height: 85px;
+}
+
+/* hamburger */
+button#hamburgerBtn {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 2.4rem;
+  cursor: pointer;
+  padding: 0 30px 0 2vw;
+}
+
+nav {
+  background-color: $secondaryColor;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: none; /* close nav */
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+nav a {
+  display: block;
+  padding: 0.8rem 0;
+  color: #eee;
+  text-align: center;
+  text-decoration: none;
+}
+
+nav li.active {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+nav a:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* open nav  */
+nav ul.open {
+  display: block;
+}
+main {
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  h1,
+  h3 {
+    color: $primaryColor;
+    font-style: italic;
+    margin: 0.5rem 0 0.1rem 0;
+    font-size: 2rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+    margin: 0 0 0.3rem 0;
+  }
+} // end of main
+
+.labeled {
+  position: relative;
+}
+
+.labeled h6,
+.labeled p {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.7);
+  margin: 0;
+  width: 100%;
+  padding: 0.3rem 1rem;
+}
+
+.labeled h6 {
+  top: 0;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.labeled p {
+  bottom: 0;
+  font-weight: 700;
+  color: #b00;
+}
+
+/* grid rules */
+.row {
+  clear: both;
+}
+
+.column {
+  float: left;
+}
+
+.small-12 {
+  width: 100%;
+}
+
+.small-6 {
+  width: 50%;
+  padding-right: 1em;
+  padding-left: 1em;
+}
+/* stop content from expanding with screen */
+.limited {
+  max-width: 1150px;
+  margin: auto;
+}
+
+footer {
+  background-color: $primaryColor;
+  color: #fff;
+  font-size: 1.2rem;
+  font-family: "cookie", cursive;
+}
+
+footer h2 {
+  font-style: italic;
+  text-transform: uppercase;
+  margin: 1rem 0 0;
+}
+
+/* fixes footer collapse after float in grid rules */
+.clearFix:after {
+  content: "";
+  display: table;
+  clear: both;
+}

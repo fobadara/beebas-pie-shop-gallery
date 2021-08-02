@@ -1,0 +1,37 @@
+header h1 {
+  font-size: 2.85rem;
+}
+
+header h2 {
+  font-size: 1.5rem;
+}
+
+header img {
+  height: 100px;
+}
+
+nav button {
+  display: none;
+}
+
+nav ul {
+  display: block;
+}
+
+nav li {
+  width: 25%;
+  float: left;
+}
+
+.medium-6 {
+  width: 50%;
+  padding-left: 2em;
+}
+
+.medium-3 {
+  width: 33.3333333%;
+}
+
+.centerVertically {
+  margin-top: 50vw;
+}
