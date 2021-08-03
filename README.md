@@ -1,19 +1,18 @@
-# My pie shop
+# Beebas Amazing pie shop
 
 A site that takes your orders and gets your location (with your permission ofcourse)
 
 ![screenshot](images/homepage.png)
-![screenshot](images/screenshot-pies.png)
-![screenshot](images/screenshot-order.png)
+![screenshot](images/pies.png)
 ![screenshot](images/screenshot-contact.png)
 
-<div align="center"><a href="https://fobadara.github.io/pie-shop" text="bold">Live Demo</a></div>
+<div align="center"><a href="https://fobadara.github.io/beebas-pie-shop-gallery" text="bold">Live Demo</a></div>
 
 # Description
 
-![screenshot](images/pie-shop.gif)
+![video](images/beebas-pie-gallery.gif)
 
-A pie shop mini-website that receives input from the user include longitude and latitude details through the Geolocation Browser API and stores small quantity of data using the Local Storage Browser API
+This imaginary site shows some of beeba's best pies and how to get across to her. This site is fully responsive and compatible to all screen sizes and all device. No flexbox was used nor was the grid system applied. Also the site includes wayfinding so you can never get lost.
 
 # Built With
 
@@ -25,13 +24,15 @@ A pie shop mini-website that receives input from the user include longitude and 
 
 ● HTML and CSS Linters
 
+● SASS
+
 # Getting Started
 
 To get a local copy up and running follow these simple example steps.
 
-⬜ clone the app by running this command `git clone https://github.com/fobadara/pie-shop.git`
+⬜ clone the app by running this command `git clone https://github.com/fobadara/beebas-pie-shop-gallery`
 
-⬜ Run this command `cd pie-shop`
+⬜ Run this command `cd beebas-pie-shop-gallery`
 
 ⬜ Open in browser
 
