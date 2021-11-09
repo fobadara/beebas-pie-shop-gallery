@@ -1,6 +1,6 @@
 # Beebas Amazing pie shop
 
-A site that takes your orders and gets your location (with your permission ofcourse)
+A site that takes your orders and gets your location (with your permission ofcourse). Built with HTML, CSS, Javascript, SASS and Bootstrap
 
 ![screenshot](images/homepage.png)
 ![screenshot](images/pies.png)
